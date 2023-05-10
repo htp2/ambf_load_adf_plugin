@@ -35,9 +35,10 @@ catkin build ambf_load_adf_plugin
 Find most updated instructions for starting AMBF with plugins on that git repository (https://github.com/WPI-AIM/ambf)
 
 You can test this plugin on the example by:
-```<ambf_exe_dir> ---> e.g. ~/ambf/bin/lin-x86_64```
-```<plugin_so_path> ---> e.g. <catkin_ws>/devel/lib/libambf_load_adf_plugin.so```
-```<adf_filepath> ---> e.g. <ambf_path>/ambf_models/descriptions/multi-bodies/robots/blender-toy-car.yaml```
+
+- ```<ambf_exe_dir> ---> e.g. ~/ambf/bin/lin-x86_64```
+- ```<plugin_so_path> ---> e.g. <catkin_ws>/devel/lib/libambf_load_adf_plugin.so```
+- ```<adf_filepath> ---> e.g. <ambf_path>/ambf_models/descriptions/multi-bodies/robots/blender-toy-car.yaml```
 
 Start a ROS core. Then start the simulator with the plugin:
 
