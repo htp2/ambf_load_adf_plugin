@@ -1,0 +1,12 @@
+adf version: 1.0
+world config: ADF/world/world.yaml
+color config: ADF/color/colors.yaml
+input devices config: ADF/input_devices/input_devices.yaml
+plugins: [
+  {
+    name: LOAD_ADF_PLUGIN,
+    filename: libambf_load_adf_plugin.so,
+    path: ../../build/ambf_load_adf_plugin/, # This is to use if catkin-built
+  }
+]
+multibody configs:
