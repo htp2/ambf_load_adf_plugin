@@ -14,6 +14,8 @@ This exists as a "drag-and-drop" feature in the simulator already, but it is nic
 ``` rosservice call /ambf/load_adf_plugin/add_adf_file "data: '<filename>'" ```
 
 
+[untitled.webm](https://github.com/htp2/ambf_load_adf_plugin/assets/17507145/e0bb6cdc-9ffd-4f7d-b6ba-5d8d85e2d8b3)
+
 ## Building
 Find most updated instructions for building AMBF on that git repository (https://github.com/WPI-AIM/ambf)
 
