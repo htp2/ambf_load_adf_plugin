@@ -52,6 +52,16 @@ Then you can load the ADF file into the simulator using the service call:
 rosservice call /ambf/load_adf_plugin/add_adf_file "data: '<adf_filepath>'"
 ```
 
+It is best practice to put your plugins into your ```launch.yaml``` file e.g.
+```
+plugins: [
+  {
+    name: ROS_ADF_LOADER,
+    filename: libambf_load_adf_plugin.so,
+    path: <plugin_so_path> .
+  }
+]
+```
 ## TODOs / Future Work
 Something I hope to get to someday (or you could do it too! :) )
 
